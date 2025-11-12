@@ -21,7 +21,8 @@ function CreatePost({ fetchPosts }) {
     e.preventDefault();
     try {
       await axios.post(
-        "http://localhost:5000/api/posts",
+        // "http://localhost:5000/api/posts",
+        "https://appdost-socialmedia-project-backend.onrender.com/api/posts",
         { text: form.text, image: form.image },
         {
           headers: {

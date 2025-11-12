@@ -2,7 +2,8 @@ import React, { useState, useEffect } from "react";
 import axios from "axios";
 import CreatePost from "./CreatePost";
 
-const API_URL = "http://localhost:5000/api/posts";
+// const API_URL = "http://localhost:5000/api/posts";
+const API_URL = "https://appdost-socialmedia-project-backend.onrender.com/api/posts";
 
 function FeedPage({ token }) {
   const [posts, setPosts] = useState([]);

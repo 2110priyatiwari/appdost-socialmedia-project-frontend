@@ -1,7 +1,8 @@
 import React, { useState } from "react";
 import axios from "axios";
 
-const API_URL = "http://localhost:5000/api/users";
+// const API_URL = "http://localhost:5000/api/users";
+const API_URL = "https://appdost-socialmedia-project-backend.onrender.com/api/users";
 
 function LoginPage({ setUser }) {
   const [isLogin, setIsLogin] = useState(true);
